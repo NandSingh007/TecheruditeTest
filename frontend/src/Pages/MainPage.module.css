@@ -1,0 +1,32 @@
+/* MainPage.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  text-align: center;
+  color: white;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.subtext {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 2rem;
+  }
+
+  .subtext {
+    font-size: 1rem;
+  }
+}
